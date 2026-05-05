@@ -1,0 +1,3 @@
+[submodule "SocketProgramming"]
+	path = SocketProgramming
+	url = https://github.com/BaeJiwoo/CSharpSocket.git
