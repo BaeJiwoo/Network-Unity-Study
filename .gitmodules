@@ -4,3 +4,6 @@
 [submodule "UnityMultiplayStudy"]
 	path = UnityMultiplayStudy
 	url = https://github.com/BaeJiwoo/UnityMultiplayStudy.git
+[submodule "Unity MultiplayStudy"]
+	path = Unity MultiplayStudy
+	url = https://github.com/BaeJiwoo/UnityMultiplayStudy.git
