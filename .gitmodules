@@ -1,3 +1,6 @@
 [submodule "SocketProgramming"]
 	path = SocketProgramming
 	url = https://github.com/BaeJiwoo/CSharpSocket.git
+[submodule "UnityMultiplayStudy"]
+	path = UnityMultiplayStudy
+	url = https://github.com/BaeJiwoo/UnityMultiplayStudy.git
