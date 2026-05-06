@@ -31,7 +31,7 @@ public class TransportTCP : MonoBehaviour
         mIsServer = true;
         return LaunchThread();
     }
-
+    public void HiHi() => Debug.Log("Hi");
     public void StopServer()
     {
         mIsThreadRunning = false;
@@ -53,7 +53,6 @@ public class TransportTCP : MonoBehaviour
 
         Debug.Log("Server stopped.");
     }
-
     public bool Connect(string address, int port)
     {
         Debug.Log("TransportTCP connect called.");
