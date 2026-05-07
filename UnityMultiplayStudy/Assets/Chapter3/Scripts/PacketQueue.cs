@@ -59,6 +59,8 @@ public class PacketQueue
         return recvSize;
     }
 
+    public bool IsEmpty() => mOffsetList.Count > 0;
+
     public void Clear()
     {
         byte[] buffer = mStreamBuffer.GetBuffer();

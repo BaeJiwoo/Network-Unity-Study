@@ -14,6 +14,11 @@ public class TransportTCP : MonoBehaviour
         mRecvQueue = new PacketQueue();
     }
 
+    public void FixedUpdate()
+    {
+
+    }
+
     public bool StartServer(int port, int connectionNum)
     {
         Debug.Log("StartServer called.!");
@@ -131,6 +136,8 @@ public class TransportTCP : MonoBehaviour
     public int Receive(ref byte[] data, int size)
     {
         if (mRecvQueue == null) return 0;
+
+        //mUIController.GetPacket();
         return mRecvQueue.Dequeue(ref data, size);
     }
 
@@ -258,7 +265,7 @@ public class TransportTCP : MonoBehaviour
 
     private Socket mSocket;
 
-    private bool mIsServer;
+    private bool mIsServer = false;
 
     private bool mIsConnected = false;
 
@@ -277,4 +284,6 @@ public class TransportTCP : MonoBehaviour
 
     // ¹öÆÛ
     private static int s_mtu = 1400;
+
+    public UIController mUIController;
 }
