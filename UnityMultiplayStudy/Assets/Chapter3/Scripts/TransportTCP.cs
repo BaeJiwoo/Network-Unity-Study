@@ -20,6 +20,7 @@ public class TransportTCP : MonoBehaviour
         try
         {
             mListener = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            mListener.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
             mListener.Bind(new IPEndPoint(IPAddress.Any, port));
             mListener.Listen(connectionNum);
         }
