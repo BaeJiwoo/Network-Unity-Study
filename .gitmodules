@@ -3,7 +3,7 @@
 	url = https://github.com/BaeJiwoo/CSharpSocket.git
 [submodule "UnityMultiplayStudy"]
 	path = UnityMultiplayStudy
-	url = https://github.com/BaeJiwoo/UnityMultiplayStudy.git
+	url = https://github.com/BaeJiwoo/Study-Unity-Multi_Play.git
 [submodule "Unity MultiplayStudy"]
 	path = Unity MultiplayStudy
 	url = https://github.com/BaeJiwoo/UnityMultiplayStudy.git
